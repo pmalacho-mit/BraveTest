@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+}
+
+body {
+  background-image: url(https://i.picsum.photos/id/1032/2880/1800.jpg?hmac=5SLBdyPZBMyr5IBkIRfffZV10bP87Y7RrxVZX1vCefA);
+}
+
+#header {
+  background-color: rgb(248, 178, 124);
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+#header img{
+  width: 200px;
+  display: inline;
+  border-radius: 100px;
+  border: 3px solid darkred;
+  margin-left: 100px;
+}
+
+#greeting {
+  font-size: 50px;
+  display: inline-block;
+  font-family: monospace;
+  vertical-align: top;
+  padding-top: 75px;
+  margin-left: 20px;
+}
+
+#interest_msg {
+  font-weight: lighter;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  display: inline;
+}
+
+#my_interests {
+  text-align: left;
+}
+
+
+.interest {
+  font-size: 20px;
+  color: white;
+  display: inline-flex;
+  font-family: sans-serif;
+  background-color: rgb(10, 46, 109);
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin: 0px;
+  margin-right: 0px;
+}
+
+#content {
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  text-shadow: 12px 6px 6px rgba(0, 0, 0, 0.4);
+}
+
+.response {
+  border-left: 3px solid black;
+  font-size: 1em;
+}
+
+.response ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+
+.response ul :not(:last-child) {
+  padding-bottom: 10px;
+}
+
+#inspiration ul{
+  list-style: circle;
+}
+
+#inspiration ul li {
+  margin-left: 10px;
+}
